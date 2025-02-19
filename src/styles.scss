@@ -1,5 +1,13 @@
 
-/*-----------START GLOBAL APP FONT STYLES-----------*/
+.container-fluid {
+  padding: 0;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/*START GLOBAL APP FONT STYLES*/
 body {
   font-family: 'nunitoSans', Fallback, sans-serif;
 }
@@ -12,4 +20,34 @@ body {
   font-family: 'nunitoSans';
   src: url('./assets/fonts/nunitoSans.ttf') format('opentype');
 }
-/*-----------END GLOBAL APP FONT STYLES-----------*/
+/*END GLOBAL APP FONT STYLES*/
+
+
+/*--------------------------------------------------*/
+
+
+/*START CHANGE DEFAULT BOOTSTRAP STYLES*/
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover,
+.navbar-toggler:target,
+button:focus,
+button:active,
+button:hover,
+button:target,
+input:focus,
+input:active,
+input:hover,
+input:target,
+textarea:focus,
+textarea:active,
+textarea:hover,
+textarea:target,{
+  outline: 0;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+}
+/*END CHANGE DEFAULT BOOTSTRAP STYLES*/
