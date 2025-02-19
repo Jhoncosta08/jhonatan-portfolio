@@ -1,6 +1,6 @@
 
-@use "src/custom-theme" as *;
+@use 'custom-theme' as *;
 
-.a {
+.test {
   background-color: $primary-gold-one;
 }
