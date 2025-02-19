@@ -1,15 +1,15 @@
 
 /*-----------START GLOBAL APP FONT STYLES-----------*/
 body {
-  font-family: 'frizzQuadrata', Fallback, sans-serif;
+  font-family: 'nunitoSans', Fallback, sans-serif;
 }
 
 ::placeholder {
-  font-family: 'frizzQuadrata', Fallback, sans-serif;
+  font-family: 'nunitoSans', Fallback, sans-serif;
 }
 
 @font-face {
-  font-family: 'frizzQuadrata';
-  src: url('./assets/fonts/friz-font.otf') format('opentype');
+  font-family: 'nunitoSans';
+  src: url('./assets/fonts/nunitoSans.ttf') format('opentype');
 }
 /*-----------END GLOBAL APP FONT STYLES-----------*/
