@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+
+
+/*-----------START GLOBAL APP FONT STYLES-----------*/
+body {
+  font-family: 'frizzQuadrata', Fallback, sans-serif;
+}
+
+::placeholder {
+  font-family: 'frizzQuadrata', Fallback, sans-serif;
+}
+
+@font-face {
+  font-family: 'frizzQuadrata';
+  src: url('./assets/fonts/friz-font.otf') format('opentype');
+}
+/*-----------END GLOBAL APP FONT STYLES-----------*/
