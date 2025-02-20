@@ -1,13 +1,20 @@
+@use 'custom-theme' as *;
+
+
 .hamburger-btn span {
   position: relative;
   top: 0;
   display: block;
-  background: #eee;
+  background: $primary-one;
   width: 50px;
   height: 5px;
   margin: 10px 0;
   cursor: pointer;
   transition: transform 300ms linear 0ms,top 250ms ease-in-out 350ms;
+}
+
+.active span {
+  background: $secondary-two;
 }
 
 .hamburger-btn.active span:nth-child(1) {

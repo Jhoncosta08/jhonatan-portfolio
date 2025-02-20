@@ -1,15 +1,12 @@
+@use 'custom-theme' as *;
 
 .container-fluid {
   padding: 0;
 }
 
-
-/*--------------------------------------------------*/
-
-
-/*START GLOBAL APP FONT STYLES*/
 body {
   font-family: 'nunitoSans', Fallback, sans-serif;
+  background-color: $secondary-dark;
 }
 
 ::placeholder {
@@ -20,13 +17,6 @@ body {
   font-family: 'nunitoSans';
   src: url('./assets/fonts/nunitoSans.ttf') format('opentype');
 }
-/*END GLOBAL APP FONT STYLES*/
-
-
-/*--------------------------------------------------*/
-
-
-/*START CHANGE DEFAULT BOOTSTRAP STYLES*/
 
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -50,4 +40,3 @@ textarea:target,{
   box-shadow: none;
   border: none;
 }
-/*END CHANGE DEFAULT BOOTSTRAP STYLES*/
