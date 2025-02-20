@@ -1,1 +1,26 @@
-<p>about works!</p>
+
+<div class="container">
+  <div class="row justify-content-center">
+
+    <div class="col-sm text-center">
+      <app-simple-button [buttonText]="'About me'" (onClick)="getClickEvent(); setActiveButton('About me')" [isActive]="activeButton === 'About me'"></app-simple-button>
+      <app-simple-button [buttonText]="'Education'" (onClick)="getClickEvent(); setActiveButton('Education')" [isActive]="activeButton === 'Education'"></app-simple-button>
+      <app-simple-button [buttonText]="'Experience'" (onClick)="getClickEvent(); setActiveButton('Experience')" [isActive]="activeButton === 'Experience'"></app-simple-button>
+      <app-simple-button [buttonText]="'Skills'" (onClick)="getClickEvent(); setActiveButton('Skills')" [isActive]="activeButton === 'Skills'"></app-simple-button>
+    </div>
+
+    <div class="col-sm">
+      <h1 class="about-page-title">{{ activeButton }}</h1>
+
+      <div class="row">
+        <div class="col-sm about-description">
+          <app-about-text *ngIf="activeButton === 'About me'"></app-about-text>
+          <app-education *ngIf="activeButton === 'Education'"></app-education>
+          <app-experience *ngIf="activeButton === 'Experience'"></app-experience>
+          <app-skills *ngIf="activeButton === 'Skills'"></app-skills>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
