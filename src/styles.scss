@@ -9,6 +9,11 @@ body {
   background-color: $secondary-dark;
 }
 
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
 ::placeholder {
   font-family: 'nunitoSans', Fallback, sans-serif;
 }

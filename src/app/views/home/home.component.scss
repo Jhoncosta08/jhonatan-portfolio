@@ -1,1 +1,39 @@
+@use 'custom-theme' as *;
 
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  max-width: 300px;
+  border-radius: 50%;
+  border: 2px solid $primary-one;;
+}
+
+.profile-description {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  padding-right: 3rem;
+
+  & span {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: $secondary-one;
+  }
+
+  & h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: $secondary-two;
+  }
+
+  & p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: $secondary-one;
+  }
+}
