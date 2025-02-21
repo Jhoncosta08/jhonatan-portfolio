@@ -3,10 +3,11 @@
   <div class="row justify-content-center">
 
     <div class="col-sm text-center">
-      <app-simple-button [buttonText]="'About me'" (onClick)="getClickEvent(); setActiveButton('About me')" [isActive]="activeButton === 'About me'"></app-simple-button>
-      <app-simple-button [buttonText]="'Education'" (onClick)="getClickEvent(); setActiveButton('Education')" [isActive]="activeButton === 'Education'"></app-simple-button>
-      <app-simple-button [buttonText]="'Experience'" (onClick)="getClickEvent(); setActiveButton('Experience')" [isActive]="activeButton === 'Experience'"></app-simple-button>
-      <app-simple-button [buttonText]="'Skills'" (onClick)="getClickEvent(); setActiveButton('Skills')" [isActive]="activeButton === 'Skills'"></app-simple-button>
+      <app-simple-button [buttonText]="'Sobre'" (onClick)="getClickEvent(); setActiveButton('Sobre')" [isActive]="activeButton === 'Sobre'"></app-simple-button>
+      <app-simple-button [buttonText]="'Educação'" (onClick)="getClickEvent(); setActiveButton('Educação')" [isActive]="activeButton === 'Educação'"></app-simple-button>
+      <app-simple-button [buttonText]="'Experiência'" (onClick)="getClickEvent(); setActiveButton('Experiência')" [isActive]="activeButton === 'Experiência'"></app-simple-button>
+      <app-simple-button [buttonText]="'Habilidades'" (onClick)="getClickEvent(); setActiveButton('Habilidades')" [isActive]="activeButton === 'Habilidades'"></app-simple-button>
+      <app-simple-button [buttonText]="'Idiomas'" (onClick)="getClickEvent(); setActiveButton('Idiomas')" [isActive]="activeButton === 'Idiomas'"></app-simple-button>
     </div>
 
     <div class="col-sm">
@@ -14,10 +15,11 @@
 
       <div class="row">
         <div class="col-sm about-description">
-          <app-about-text *ngIf="activeButton === 'About me'"></app-about-text>
-          <app-education *ngIf="activeButton === 'Education'"></app-education>
-          <app-experience *ngIf="activeButton === 'Experience'"></app-experience>
-          <app-skills *ngIf="activeButton === 'Skills'"></app-skills>
+          <app-about-text *ngIf="activeButton === 'Sobre'"></app-about-text>
+          <app-education *ngIf="activeButton === 'Educação'"></app-education>
+          <app-experience *ngIf="activeButton === 'Experiência'"></app-experience>
+          <app-skills *ngIf="activeButton === 'Habilidades'"></app-skills>
+          <app-languages *ngIf="activeButton === 'Idiomas'"></app-languages>
         </div>
       </div>
     </div>

@@ -1,0 +1,55 @@
+@use 'custom-theme' as *;
+
+
+.timeline {
+  border-left: 1px solid $secondary-two;
+  position: relative;
+  list-style: none;
+
+  & h5 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: $secondary-one;
+  }
+
+  & .experience-date {
+    font-size: 0.7rem;
+    color: $secondary-two;
+    letter-spacing: 1px;
+
+    & strong {
+      cursor: pointer;
+    }
+
+    & strong:hover {
+      color: $primary-one;
+    }
+  }
+
+  & .experience-description {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: $secondary-one;
+    line-height: 24px;
+    text-align: justify;
+  }
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: $secondary-two;
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
