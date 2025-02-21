@@ -8,6 +8,7 @@
       <app-simple-button [buttonText]="'Experiência'" (onClick)="getClickEvent(); setActiveButton('Experiência')" [isActive]="activeButton === 'Experiência'"></app-simple-button>
       <app-simple-button [buttonText]="'Habilidades'" (onClick)="getClickEvent(); setActiveButton('Habilidades')" [isActive]="activeButton === 'Habilidades'"></app-simple-button>
       <app-simple-button [buttonText]="'Idiomas'" (onClick)="getClickEvent(); setActiveButton('Idiomas')" [isActive]="activeButton === 'Idiomas'"></app-simple-button>
+      <app-simple-button [buttonText]="'Baixar CV'" [isOutlined]="true" (onClick)="downloadPDF()"></app-simple-button>
     </div>
 
     <div class="col-sm">

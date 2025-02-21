@@ -1,10 +1,9 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {NgClass} from '@angular/common';
-import {RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-simple-button',
-  imports: [NgClass, RouterLinkActive],
+  imports: [NgClass],
   templateUrl: './simple-button.component.html',
   styleUrls: ['./simple-button.component.scss', '../../shared/hover-effects.scss']
 })

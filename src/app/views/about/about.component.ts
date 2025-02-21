@@ -24,4 +24,11 @@ export class AboutComponent {
     console.log('deu boa');
   }
 
+  downloadPDF(): void {
+    const link: HTMLAnchorElement = document.createElement('a');
+    link.href = 'assets/cv/pt-br/Jhonatan Silva da Costa - CV.pdf';
+    link.download = 'jhonatan costa - CV.pdf';
+    link.click();
+  }
+
 }
