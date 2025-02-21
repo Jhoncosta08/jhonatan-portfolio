@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-social-icons',
   imports: [],
   templateUrl: './social-icons.component.html',
-  styleUrls: ['./social-icons.component.scss', '../../shared/hover-effects.scss']
+  styleUrls: ['./social-icons.component.scss', '../../shared/scss/hover-effects.scss']
 })
 export class SocialIconsComponent {
 

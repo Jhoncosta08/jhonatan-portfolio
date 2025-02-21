@@ -5,7 +5,7 @@ import {NgClass} from '@angular/common';
   selector: 'app-simple-button',
   imports: [NgClass],
   templateUrl: './simple-button.component.html',
-  styleUrls: ['./simple-button.component.scss', '../../shared/hover-effects.scss']
+  styleUrls: ['./simple-button.component.scss', '../../shared/scss/hover-effects.scss']
 })
 export class SimpleButtonComponent {
   @Output() onClick: EventEmitter<any> = new EventEmitter();

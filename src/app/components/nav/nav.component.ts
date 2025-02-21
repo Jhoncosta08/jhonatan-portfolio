@@ -6,6 +6,6 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   selector: 'app-nav',
   imports: [HamburgerComponent, RouterLinkActive, RouterLink],
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss', '../../shared/hover-effects.scss']
+  styleUrls: ['./nav.component.scss', '../../shared/scss/hover-effects.scss']
 })
 export class NavComponent {}
