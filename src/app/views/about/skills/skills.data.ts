@@ -5,7 +5,8 @@ export const skillsData: SkillsInterface[] = [
     skillTitle: 'Frontend',
     skills: [
       'HTML', 'CSS', 'JavaScript', 'TypeScript',
-      'Angular', 'React', 'Vue', 'Bootstrap', 'Angular Material'
+      'Angular', 'React', 'Vue', 'Vuetify',
+      'Bootstrap', 'Angular Material'
     ],
   },
   {
