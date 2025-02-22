@@ -1,0 +1,22 @@
+@use 'custom-theme' as *;
+
+.skills-container {
+  border-bottom: 1px solid $secondary-three;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+
+  & h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: $secondary-one;
+  }
+}
+
+.skills-list p {
+  font-size: 0.8rem;
+  color: $primary-dark;
+  background-color: $secondary-two;
+  padding: 10px 15px;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
