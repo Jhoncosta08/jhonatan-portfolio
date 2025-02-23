@@ -28,7 +28,7 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    title: 'Jhonatan - 404',
-    loadChildren: () => import('./views/not-found/not-found.routes').then(m => m.notFoundRoutes),
+    redirectTo: 'home',
+    pathMatch: 'full',
   }
 ];
