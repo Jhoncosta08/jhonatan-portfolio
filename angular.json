@@ -47,8 +47,6 @@
               "optimization": true,
               "aot": true,
               "sourceMap": false,
-              "extractCss": true,
-              "vendorChunk": false,
               "extractLicenses": true,
               "budgets": [
                 {
@@ -62,7 +60,6 @@
                   "maximumError": "16kB"
                 }
               ],
-              "serviceWorker": true,
               "outputHashing": "all"
             },
             "development": {
