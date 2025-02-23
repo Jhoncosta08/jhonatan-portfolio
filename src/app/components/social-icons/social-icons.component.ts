@@ -9,18 +9,6 @@ import {UtilsService} from '../../services/shared/utils.service';
 })
 export class SocialIconsComponent {
 
-  constructor(public utilService: UtilsService) {
-  }
-
-  socialIconsRedirect(redirectUrl:'github' |'linkedin' | 'instagram'): Window | null  {
-    switch (redirectUrl) {
-      case 'github':
-        return this.utilService.openInNewTab('https://github.com/Jhoncosta08');
-      case 'linkedin':
-        return this.utilService.openInNewTab('https://www.linkedin.com/in/jhonatan-silva-da-costa');
-      case 'instagram':
-        return this.utilService.openInNewTab('https://www.instagram.com/jhonCosta08');
-    }
-  }
+  constructor(public utilService: UtilsService) {}
 
 }

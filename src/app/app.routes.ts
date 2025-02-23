@@ -12,11 +12,6 @@ export const routes: Routes = [
     loadChildren: () => import('./views/about/about.routes').then(m => m.aboutRoutes),
   },
   {
-    path: 'contato',
-    title: 'Jhonatan - Contato',
-    loadChildren: () => import('./views/contact/contact.routes').then(m => m.contactRoutes),
-  },
-  {
     path: 'inicio',
     title: 'Jhonatan - Início',
     loadChildren: () => import('./views/home/home.routes').then(m => m.homeRoutes),

@@ -1,1 +1,29 @@
-<p>testimonials works!</p>
+
+
+<div class="container">
+  <section>
+    <div class="row text-center d-flex align-items-stretch">
+
+      <div *ngFor="let testimonial of testimonials" class="col-md-6 mb-0 mb-md-0 d-flex align-items-stretch">
+        <div class="card testimonial-card">
+          <div class="card-up"></div>
+          <div class="avatar mx-auto bg-white">
+            <img [src]="testimonial.picture" class="rounded-circle img-fluid" alt="testimonial-picture"/>
+          </div>
+          <div class="card-body">
+            <h4 (click)="utilService.openInNewTab(testimonial.linkedin)">{{ testimonial.name }}</h4>
+            <i>{{ testimonial.position }}</i>
+            <hr />
+            <p class="dark-grey-text mt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+              </svg>
+              <span>{{ testimonial.testimonial }}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>

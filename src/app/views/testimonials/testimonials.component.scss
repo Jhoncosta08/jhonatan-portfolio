@@ -1,0 +1,66 @@
+@use 'custom-theme' as *;
+
+.testimonial-card {
+  background-color: $secondary-two;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background-color: $primary-one;
+}
+
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid $secondary-three;
+  border-radius: 50%;
+}
+
+.card-body {
+
+  & h4 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: $primary-dark;
+    margin: 0;
+    transition: 0.4ms ease-out;
+    cursor: pointer;
+  }
+
+  & h4:hover {
+    transition: 0.4ms ease-out;
+    color: $primary-three;
+  }
+
+  & i {
+    font-size: 0.8rem;
+    color: $primary-dark;
+    margin: 0;
+  }
+
+  & hr {
+    border-top: 1px solid $primary-dark;
+  }
+
+  & p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: $secondary-dark;
+  }
+
+  & svg {
+    width: auto;
+    height: 2rem;
+  }
+
+  & span {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+}
