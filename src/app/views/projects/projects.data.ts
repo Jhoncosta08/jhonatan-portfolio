@@ -8,13 +8,13 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/average-color/master/average-color.png',
     projectLink: 'https://github.com/Jhoncosta08/average-color',
     skills: ['HTML', 'CSS', 'javaScript'],
-    description: 'Este sistema foi desenvolvido utilizando HTML, CSS e JavaScript puros, ' +
-      'oferecendo uma solução simples e interativa para calcular a média de duas cores. ' +
-      'A interface inclui um formulário com dois campos de seleção de cor, onde o usuário ' +
-      'pode escolher as cores desejadas por meio de um seletor visual de cores. Após selecionar ' +
-      'as cores, o usuário clica no botão "Calcular", e o sistema processa as informações, exibindo ' +
-      'a cor resultante que corresponde à média das duas cores escolhidas. Este aplicativo é ' +
-      'perfeito para designers e desenvolvedores que precisam combinar cores de maneira prática e visual.'
+    description: 'This system was developed using pure HTML, CSS, and JavaScript, ' +
+      'offering a simple and interactive solution to calculate the average of two colors. ' +
+      'The interface includes a form with two color selection fields, where the user ' +
+      'can choose the desired colors through a visual color picker. After selecting ' +
+      'the colors, the user clicks the "Calculate" button, and the system processes the information, displaying ' +
+      'the resulting color that corresponds to the average of the two chosen colors. ' +
+      'This application is perfect for designers and developers who need to combine colors in a practical and visual way.'
   },
   {
     projectName: 'School App',
@@ -23,13 +23,13 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/school-app/master/src/assets/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/school-app',
     skills: ['Vue.js', 'Vuetify', 'HTML', 'CSS', 'javaScript'],
-    description: 'O projeto é um sistema de gerenciamento de alunos que ' +
-      'permite registrar e visualizar informações sobre alunos, disciplinas e ' +
-      'exames. Ele suporta operações CRUD para alunos (adicionar, visualizar e exibir notas),' +
-      ' disciplinas (criar e listar disciplinas para atribuição de notas) e exames ' +
-      '(atribuir, editar e excluir notas). A aplicação foi desenvolvida com Vue.js, ' +
-      'utilizando Vuetify para uma interface moderna e responsiva, e Vue Router ' +
-      'para o gerenciamento de rotas e navegação dentro do app.'
+    description: 'The project is a student management system that ' +
+      'allows you to register and view information about students, subjects, and ' +
+      'exams. It supports CRUD operations for students (add, view, and display grades), ' +
+      'subjects (create and list subjects for grade assignment), and exams ' +
+      '(assign, edit, and delete grades). The application was developed with Vue.js, ' +
+      'using Vuetify for a modern and responsive interface, and Vue Router ' +
+      'for route management and navigation within the app.'
   },
   {
     projectName: 'Wallit',
@@ -43,23 +43,23 @@ export const projectsData: ProjectsInterface[] = [
       'AWS Cognito', 'Firebase', 'LazyLoading', 'API Restful',
       'Kibana', 'HTML', 'CSS', 'Jira'
     ],
-    description: 'No projeto Wallit, atuei como frontend sênior, desenvolvendo três sistemas integrados ' +
-      'com foco em usabilidade e tecnologia de ponta:\n' +
+    description: 'In the Wallit project, I worked as a senior frontend developer, building three integrated systems ' +
+      'with a focus on usability and cutting-edge technology:\n' +
       '\n' +
-      '1. Aplicativo de Carteira Digital: Sistema móvel em Angular com Ionic, ' +
-      'permitindo gerenciamento de contas, cartões, saldo e benefícios, como gift ' +
-      'cards e seguros. Integrado com Stripe para transações financeiras e ' +
-      'AWS Cognito para autenticação.\n' +
+      '1. Digital Wallet App: A mobile system built with Angular and Ionic, ' +
+      'allowing account, card, balance, and benefit management, such as gift ' +
+      'cards and insurance. Integrated with Stripe for financial transactions and ' +
+      'AWS Cognito for authentication.\n' +
       '\n' +
-      '2. Super Admin: Desenvolvido em Angular e Node.js, permitia controle centralizado da ' +
-      'plataforma, gerenciando permissões e acessos de alto nível para manter a segurança.\n' +
+      '2. Super Admin: Developed with Angular and Node.js, it allowed centralized control of the ' +
+      'platform, managing permissions and high-level access to maintain security.\n' +
       '\n' +
-      '3. Gerenciamento de Equipes: Também em Angular e Node.js, permitia a gestão de equipes, ' +
-      'alocação de benefícios e relatórios detalhados via Kibana.\n' +
+      '3. Team Management: Also built with Angular and Node.js, it enabled team management, ' +
+      'allocation of benefits, and detailed reports via Kibana.\n' +
       '\n' +
-      'O projeto utilizava Jira para gerenciamento de sprints e Confluence para documentação, ' +
-      'com comunicação diária em inglês, o que fortaleceu minhas habilidades em ' +
-      'liderança técnica e gestão de integrações complexas.'
+      'The project used Jira for sprint management and Confluence for documentation, ' +
+      'with daily communication in English, which strengthened my skills in ' +
+      'technical leadership and managing complex integrations.'
   },
   {
     projectName: 'Mago do Treino',
@@ -68,15 +68,15 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/workout-wizard/master/src/assets/previews/preview-5.png',
     projectLink: 'https://github.com/Jhoncosta08/workout-wizard',
     skills: ['Angular', 'Ionic', 'TypeScript', 'LazyLoading', 'Firebase', 'HTML', 'CSS', 'Trello'],
-    description: 'O Workout Wizard é um aplicativo móvel que oferece aos usuários a capacidade ' +
-      'de criar e gerenciar seus próprios planos de treino personalizados para a academia. ' +
-      'Com uma ênfase na individualidade, os usuários podem escolher entre uma variedade de exercícios ' +
-      'e organizar seus treinos de acordo com suas necessidades e objetivos. Além disso, o ' +
-      'aplicativo permite aos usuários monitorar sua saúde, incluindo o cálculo do Índice ' +
-      'de Massa Corporal (IMC) e a realização de avaliações físicas, garantindo que ' +
-      'possam acompanhar seu progresso de forma eficaz. Em resumo, o Workout Wizard é ' +
-      'uma ferramenta essencial para aqueles que buscam manter uma rotina de ' +
-      'exercícios personalizada e acompanhar sua saúde de maneira conveniente.'
+    description: 'Workout Wizard is a mobile app that provides users with the ability ' +
+      'to create and manage their own personalized workout plans for the gym. ' +
+      'With an emphasis on individuality, users can choose from a variety of exercises ' +
+      'and organize their workouts according to their needs and goals. Additionally, the ' +
+      'app allows users to track their health, including calculating the Body ' +
+      'Mass Index (BMI) and conducting physical assessments, ensuring they ' +
+      'can monitor their progress effectively. In summary, Workout Wizard is ' +
+      'an essential tool for those looking to maintain a personalized workout routine ' +
+      'and track their health conveniently.'
   },
   {
     projectName: 'Apex Compliance',
@@ -90,19 +90,19 @@ export const projectsData: ProjectsInterface[] = [
       'Husky', 'Conventional Commits', 'Regex',
       'HTML', 'CSS', 'Jira'
     ],
-    description: 'No projeto Apex Compliance, era responsável pelo desenvolvimento do frontend, ' +
-      'utilizando Angular e Firebase para construir o sistema. Implementei funcionalidades ' +
-      'de busca e destaque de palavras-chave de "risco", com expressões regulares (regex) ' +
-      'para garantir a precisão na análise de conteúdo. O projeto usou rigorosamente as ' +
-      'melhores práticas de desenvolvimento, incluindo Git Flow para controle de versionamento, ' +
-      'Husky para automação de verificações de código, Cypress para testes automatizados, ' +
-      'e Conventional Commits para padronização, garantindo o desenvolvimento organizado e ' +
-      'de qualidade. Trabalhei de forma colaborativa na integração com o backend, ' +
-      'desenvolvido em Node.js, com suporte adicional em Python e C# para ' +
-      'funcionalidades específicas. O projeto era internacional, toda a comunicação com a ' +
-      'equipe e o cliente foi realizada em inglês, tanto em reuniões quanto por mensagens, ' +
-      'o que reforçou minha capacidade de atuar em ambientes globais e colaborar de ' +
-      'forma eficaz em projetos internacionais.'
+    description: 'In the Apex Compliance project, I was responsible for frontend development, ' +
+      'using Angular and Firebase to build the system. I implemented search and keyword ' +
+      'highlighting features for "risk" words, using regular expressions (regex) ' +
+      'to ensure accuracy in content analysis. The project strictly followed ' +
+      'best development practices, including Git Flow for version control, ' +
+      'Husky for automating code checks, Cypress for automated testing, ' +
+      'and Conventional Commits for standardization, ensuring organized and ' +
+      'high-quality development. I collaborated on the integration with the backend, ' +
+      'developed in Node.js, with additional support in Python and C# for ' +
+      'specific functionalities. The project was international, and all communication with the ' +
+      'team and the client was conducted in English, both in meetings and through messages, ' +
+      'which enhanced my ability to work in global environments and collaborate effectively on ' +
+      'international projects.'
   },
   {
     projectName: 'Lol-Guide',
@@ -111,14 +111,14 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://github.com/Jhoncosta08/lol-guide/raw/master/src/assets/preview-four.png',
     projectLink: 'https://github.com/Jhoncosta08/lol-guide',
     skills: ['Angular', 'TypeScript', 'Firebase', 'HTML', 'CSS', 'Trello'],
-    description: 'O aplicativo é uma plataforma interativa baseada no jogo League of Legends, ' +
-      'projetada para fornecer uma experiência rica e detalhada para os fãs do jogo. ' +
-      'Os usuários podem criar contas e fazer login para acessar uma extensa lista de ' +
-      'campeões. Ao selecionar um campeão, informações detalhadas são apresentadas, ' +
-      'incluindo a rota onde o campeão joga, suas habilidades com vídeos ilustrativos, ' +
-      'a história do personagem e as skins disponíveis. Essa funcionalidade permite aos ' +
-      'jogadores aprofundar seu conhecimento sobre seus campeões favoritos e explorar novos ' +
-      'personagens de uma maneira envolvente e informativa.'
+    description: 'The app is an interactive platform based on the game League of Legends, ' +
+      'designed to provide a rich and detailed experience for the game’s fans. ' +
+      'Users can create accounts and log in to access an extensive list of ' +
+      'champions. Upon selecting a champion, detailed information is displayed, ' +
+      'including the role the champion plays, their abilities with illustrative videos, ' +
+      'the character’s lore, and available skins. This functionality allows ' +
+      'players to deepen their knowledge about their favorite champions and explore new ' +
+      'characters in an engaging and informative way.'
   },
   {
     projectName: 'Dynamic table',
@@ -127,7 +127,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-table/master/src/assets/img/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-dynamic-table',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS'],
-    description: 'Projeto de criação de uma tabela completa dinâmica feita em Angular, com sorting, search e csv export.'
+    description: 'Project for creating a complete dynamic table built with Angular, featuring sorting, search, and CSV export.'
   },
   {
     projectName: 'Dynamic-button',
@@ -136,13 +136,13 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-button/main/src/assets/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-dynamic-button',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS'],
-    description: 'O aplicativo apresenta um componente de botão dinâmico reutilizável que permite a ' +
-      'personalização completa do estilo, tamanho e comportamento. Este botão pode ser ' +
-      'configurado através de propriedades que podem ser ajustadas em diferentes partes do sistema, ' +
-      'garantindo consistência visual e funcional. O componente suporta personalização CSS, ' +
-      'vários tamanhos e a vinculação de eventos como cliques e interações de teclado. Além disso, ' +
-      'é responsivo e acessível, garantindo uma boa experiência do usuário em diversos dispositivos e ' +
-      'para pessoas com diferentes necessidades especiais.'
+    description: 'The app features a reusable dynamic button component that allows for ' +
+      'complete customization of style, size, and behavior. This button can be ' +
+      'configured through properties that can be adjusted in different parts of the system, ' +
+      'ensuring visual and functional consistency. The component supports CSS customization, ' +
+      'multiple sizes, and event binding such as clicks and keyboard interactions. Additionally, ' +
+      'it is responsive and accessible, ensuring a good user experience across various devices and ' +
+      'for people with different special needs.'
   },
   {
     projectName: 'FormArray',
@@ -151,13 +151,13 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-form-array/master/src/assets/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-form-array',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'],
-    description: 'Um formulário dinâmico que permite a adição e remoção eficiente e intuitiva de campos. ' +
-      'Utilizando um conjunto de formulários, o aplicativo permite que os usuários adicionem novos campos ' +
-      'através de um botão, sendo que cada novo campo é instantaneamente incorporado à estrutura do formulário. ' +
-      'Além disso, quando um campo é excluído, os índices são automaticamente ajustados, garantindo que os ' +
-      'valores dos campos restantes sejam preservados e organizados corretamente. Essa funcionalidade torna ' +
-      'a gestão de dados flexível e ágil, sendo ideal para aplicativos que requerem entrada de ' +
-      'dados variável e personalizada.'
+    description: 'A dynamic form that allows for the efficient and intuitive addition and removal of fields. ' +
+      'Using a set of forms, the app enables users to add new fields through a button, ' +
+      'with each new field instantly incorporated into the form structure. ' +
+      'Additionally, when a field is deleted, the indexes are automatically adjusted, ensuring that the ' +
+      'values of the remaining fields are preserved and properly organized. This functionality makes ' +
+      'data management flexible and agile, making it ideal for apps that require variable and ' +
+      'customized data input.'
   },
   {
     projectName: 'TAP - Travel Affiliate Partners',
@@ -166,16 +166,16 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHmQiCzMJ8tfQ/profile-treasury-image-shrink_800_800/B4DZUHbCZLHIAY-/0/1739586284065?e=1740870000&v=beta&t=JrM7v-rr8gBfcrsiPjKgY_oIId0VcEqgW6YB_ruqhuo',
     projectLink: 'https://travelaffiliatepartners.com/',
     skills: ['Angular', 'Node.js', 'PostgreSQL', 'Firebase', 'Adobe XD', 'Bootstrap', 'Linear', 'Adobe XD'],
-    description: 'Fui responsável pela liderança do desenvolvimento do frontend no projeto TAP Travel Affiliate Partners, ' +
-      'um sistema inovador que conectava empresas de reservas de hotéis, como Booking.com, a influenciadores digitais. ' +
-      'O sistema permitia que influenciadores se cadastrassem, buscassem por hotéis e pousadas, criassem ' +
-      'links de recomendação e recebessem uma parte do lucro gerado pelas reservas realizadas por seus seguidores. ' +
-      'Desenvolvido com Angular no frontend e Node.js no backend, com banco de dados PostgreSQL, ' +
-      'minha atuação incluiu o gerenciamento da equipe de frontend, delegação de tarefas, organização de sprints ' +
-      'e cards no Jira, e tomada de decisões estratégicas sobre as tecnologias empregadas. Além disso, como o projeto ' +
-      'era internacional, participei ativamente de reuniões diárias em inglês com o cliente, garantindo uma comunicação clara ' +
-      'e eficiente. Essa experiência foi fundamental para aprimorar minhas habilidades de liderança técnica, coordenação de ' +
-      'equipes e gestão de projetos em um ambiente global.'
+    description: 'I was responsible for leading the frontend development in the TAP Travel Affiliate Partners project, ' +
+      'an innovative system that connected hotel booking companies, like Booking.com, to digital influencers. ' +
+      'The system allowed influencers to register, search for hotels and inns, create ' +
+      'referral links, and earn a share of the profit generated by bookings made through their followers. ' +
+      'Developed with Angular on the frontend and Node.js on the backend, with a PostgreSQL database, ' +
+      'my role included managing the frontend team, delegating tasks, organizing sprints ' +
+      'and cards in Jira, and making strategic decisions about the technologies used. Additionally, since the project ' +
+      'was international, I actively participated in daily meetings in English with the client, ensuring clear ' +
+      'and efficient communication. This experience was crucial for enhancing my technical leadership, team coordination, ' +
+      'and project management skills in a global environment.'
   },
   {
     projectName: 'Agrinix - Armazém Inteligente',
@@ -184,13 +184,13 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHne9BBGERadg/profile-treasury-image-shrink_800_800/B4DZUHZpXNHkAc-/0/1739585918854?e=1740870000&v=beta&t=82sDw71OBftXCmwWqf7mRZ0subzth5N-tQ2d9CJJ6s0',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'Java', 'Android Studio', 'PostgreSQL', 'Firebase', 'Jira'],
-    description: 'No projeto Armazém Digital, contribui para o desenvolvimento de uma solução logística que ' +
-      'otimizava as operações de armazém. O sistema foi implementado em tablets acoplados a empilhadeiras, ' +
-      'desenvolvido em Android Studio com backend em Java. Os tablets exibiam uma visão completa do layout do armazém, ' +
-      'orientando os trabalhadores em rotas otimizadas para a coleta e entrega de bags, utilizando tecnologia ' +
-      'RFID para rastreamento preciso. Além disso, havia um sistema de gerenciamento baseado na web, que permitia ' +
-      'a criação e organização de armazéns, integrando-se com o sistema Android, possibilitando um controle total ' +
-      'das operações e aumentando a eficiência do processo logístico.'
+    description: 'In the Armazém Digital project, I contributed to the development of a logistics solution that ' +
+      'optimized warehouse operations. The system was implemented on tablets mounted on forklifts, ' +
+      'developed in Android Studio with a backend in Java. The tablets displayed a complete view of the warehouse layout, ' +
+      'guiding workers along optimized routes for collecting and delivering bags, using RFID technology for accurate tracking. ' +
+      'Additionally, there was a web-based management system that allowed for ' +
+      'the creation and organization of warehouses, integrating with the Android system, enabling complete control ' +
+      'over operations and increasing the efficiency of the logistics process.'
   },
   {
     projectName: 'Agrinix - Floresta Digital',
@@ -199,15 +199,15 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQGKn864bsbKUQ/profile-treasury-image-shrink_800_800/B4DZUHaSuNHkAY-/0/1739586088400?e=1740870000&v=beta&t=98I-L-arqdyNRPaiYay5Zh34MFHCmzoq6Z-Cx-Nb1so',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'C#', 'PostgreSQL', 'Mapbox', 'Firebase', 'Jira'],
-    description: 'Trabalhei no projeto Floresta Digital, uma plataforma que permitia a empresas ' +
-      'comprarem tokens de crédito de carbono ao selecionar áreas específicas de uma floresta por ' +
-      'meio de imagens aéreas de alta resolução. Essas imagens eram gerenciadas utilizando a ' +
-      'plataforma Mapbox, possibilitando uma seleção geográfica precisa e visualização detalhada. ' +
-      'O frontend foi desenvolvido em Angular, garantindo uma experiência interativa e ' +
-      'amigável para o usuário, enquanto o backend foi construído em C# para lidar com transações' +
-      ' e gerenciamento de dados. Esse produto tinha como objetivo tornar a compensação de carbono' +
-      ' mais acessível e transparente, usando tecnologia para visualizar e comercializar créditos' +
-      ' de carbono diretamente de áreas florestais.'
+    description: 'I worked on the Floresta Digital project, a platform that allowed companies ' +
+      'to purchase carbon credit tokens by selecting specific areas of a forest through ' +
+      'high-resolution aerial images. These images were managed using the ' +
+      'Mapbox platform, enabling precise geographic selection and detailed visualization. ' +
+      'The frontend was developed in Angular, ensuring an interactive and ' +
+      'user-friendly experience, while the backend was built in C# to handle transactions ' +
+      'and data management. The goal of this product was to make carbon offsetting ' +
+      'more accessible and transparent, using technology to visualize and trade ' +
+      'carbon credits directly from forest areas.'
   },
   {
     projectName: 'Eterna Magia Curitiba',
@@ -216,10 +216,10 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHTEbpSoNKvsw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719360989762?e=1740870000&v=beta&t=sfSoXp8f04FnonBShZ4eO-IJKQMshEgqGMTY4PplI4E',
     projectLink: 'https://eternamagiacuritiba.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
-    description: 'A Eterna Magia é um website desenvolvido utilizando WordPress e Elementor, dedicado a oferecer uma experiência única para ' +
-      'mulheres durante o período de amamentação. O projeto visa proporcionar praticidade e sensualidade por meio de peças ' +
-      'de vestuário elaboradas e sofisticadas, permitindo que as mulheres conciliem os papéis de mãe, esposa e profissional ' +
-      'sem abrir mão de seu próprio cuidado pessoal e vaidade.'
+    description: 'Eterna Magia is a website developed using WordPress and Elementor, dedicated to providing a unique experience for ' +
+      'women during the breastfeeding period. The project aims to offer practicality and sensuality through ' +
+      'crafted and sophisticated clothing pieces, allowing women to balance the roles of mother, wife, and professional ' +
+      'without compromising their own personal care and vanity.'
   },
   {
     projectName: 'Pharma Service',
@@ -228,15 +228,15 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQGTj9Xf8piVkg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365519211?e=1740870000&v=beta&t=y1HeJ6C_krmXqOLG9ofO1nnl_P4sV0H3vSISJunXp_8',
     projectLink: 'https://xd.adobe.com/view/5a776069-8889-4c25-8d99-c05d52ce5c9c-0f24/?fullscreen',
     skills: ['Adobe XD', 'Gestão de projetos', 'Liderança', 'Gestão de equipes', 'Trello'],
-    description: 'O projeto de entrega de medicamentos à domicílio desenvolvido como Trabalho de Conclusão de Curso (TCC)' +
-      ' foi concebido para facilitar o acesso a medicamentos de forma rápida e conveniente, através de um aplicativo móvel. ' +
-      'Como gerente de projetos, assumi a responsabilidade de liderar e coordenar o desenvolvimento do projeto, ' +
-      'trabalhando em conjunto com três colegas de classe. Nosso objetivo foi criar uma solução eficiente e segura, ' +
-      'garantindo que os usuários pudessem solicitar medicamentos com facilidade e receber as entregas no conforto ' +
-      'de suas casas. O projeto foi elaborado utilizando o Adobe XD para prototipagem, visando uma experiência de ' +
-      'usuário intuitiva e amigável. Ao longo do processo, consideramos aspectos como logística de entrega, segurança ' +
-      'na transação de dados e integração com farmácias parceiras. O resultado final é um aplicativo que atende ' +
-      'às necessidades dos usuários, oferecendo conveniência e tranquilidade no acesso aos medicamentos essenciais.'
+    description: 'The home medication delivery project, developed as a Graduation Thesis (TCC), ' +
+      'was designed to facilitate quick and convenient access to medications through a mobile app. ' +
+      'As the project manager, I took on the responsibility of leading and coordinating the project development, ' +
+      'working alongside three classmates. Our goal was to create an efficient and secure solution, ' +
+      'ensuring that users could easily request medications and receive deliveries at the comfort ' +
+      'of their homes. The project was designed using Adobe XD for prototyping, aiming for an intuitive and ' +
+      'user-friendly experience. Throughout the process, we considered aspects such as delivery logistics, data ' +
+      'security, and integration with partner pharmacies. The final result is an app that meets ' +
+      'the users’ needs, offering convenience and peace of mind in accessing essential medications.'
   },
   {
     projectName: 'Cherio Store',
@@ -245,7 +245,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHG4vcefT2tRw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719366154562?e=1740870000&v=beta&t=cg_oPuzMYeFkQ9y1kDTVweWhab3IT2wH3G76mwFo4zg',
     projectLink: 'https://cheriostore.com.br/',
     skills: ['Wordpress', 'Elementor', 'Woocommerce', 'PHP'],
-    description: 'Loja criada para vender cosplay e acessórios, diretamente da china para todo o mundo.'
+    description: 'Store created to sell cosplay and accessories, directly from China to the world.'
   },
   {
     projectName: 'Gestar',
@@ -254,7 +254,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFuga8VR9XHaw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719370929746?e=1740870000&v=beta&t=BuQJyPrLnadruai7MSSK6AYHpa9kd57nQZabPIKozBc',
     projectLink: 'https://gestar.ong.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para abordar situações de infertilidade e poder ajudar as pessoas.'
+    description: 'Project created to address infertility issues and help people.'
   },
   {
     projectName: 'Schwankecasa',
@@ -263,7 +263,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFAeAwIVs7CDQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719373710838?e=1740870000&v=beta&t=fywZ9xHy-FgV11XYM_zm1w2IT3-icg2mrxa_-A7_Yq0',
     projectLink: 'https://schwankecasa.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para mostrar os produtos da empresa.'
+    description: 'Project created to showcase the company’s products.'
   },
   {
     projectName: 'Arquitetare',
@@ -272,7 +272,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEfsMfVKxkgJg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719361385532?e=1740873600&v=beta&t=msAQ8GuaqVXSPowYxiGuR4-zuQ5ogkh7rd42WpjwB58',
     projectLink: 'https://www.arquitetare.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para exibir os trabalhos de arquitetura da empresa, com o objetivo de captar clientes e mostrar ao mundo seu trabalho.'
+    description: 'Project created to showcase the company’s architecture work, aiming to attract clients and display their work to the world.'
   },
   {
     projectName: 'EduMedica',
@@ -281,7 +281,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQF1uEhVn3V9CQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719374551397?e=1740873600&v=beta&t=VteIpX4GftmSuvkP8cXzh-04QZGuBgFnH2tHniNlCxY',
     projectLink: 'https://edumedica.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para apresentar conteúdo para profissionais da área da saúde.'
+    description: 'Project created to present content for healthcare professionals.'
   },
   {
     projectName: 'Estillo Mania',
@@ -290,7 +290,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEq8q-edAdDfg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365181482?e=1740873600&v=beta&t=DGsvPc4WxX3gP8Jm5McjPp5sxFKS5lIUmckzLMRO4P8',
     projectLink: 'https://estillomania.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
-    description: 'Loja associada ao colégio Estilo, criada para vender material escolar, uniformes, fantasias e etc.'
+    description: 'Store associated with Estilo School, created to sell school supplies, uniforms, costumes, and more.'
   },
   {
     projectName: 'Intercroma',
@@ -299,7 +299,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFjE6tjtbPlZw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719374026332?e=1740873600&v=beta&t=t3PjZzO45Emavbcotj1rbioaI5yufCCXP7DS5l-41e4',
     projectLink: 'https://www.intercroma.com/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para apresentar os produtos da empresa. O projeto conta com a opção de layout em 3 línguas diferentes, O Inglês, Espanhol e Português, podendo trocar entre eles.'
+    description: 'Project created to showcase the company’s products. The project features the option of a layout in 3 different languages: English, Spanish, and Portuguese, with the ability to switch between them.'
   },
   {
     projectName: 'Sorriso de Curitiba',
@@ -308,7 +308,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEdcTI2H1CtqA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719373640333?e=1740873600&v=beta&t=Cp_m8O_wfEJCbDhjydNKDZoh16tQ5FVH48sU5hOy1f8',
     projectLink: 'https://www.sorrisodecuritiba.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para promover a linha de ônibus de Curitiba, bem como trazer informações para as pessoas.'
+    description: 'Project created to promote Curitiba’s bus line, as well as provide information to people.'
   },
   {
     projectName: 'Star Wars - Magic Way',
@@ -317,7 +317,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEqEyQns_bkaQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719374473929?e=1740873600&v=beta&t=qTDm2ZqRSkpLc-fYaFwTXQv9T_6qMIksK2xpQFPX3sA',
     projectLink: '',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto de divulgação, para vendas de pacotes de viagem para o parque do star wars na disney através da magic way.'
+    description: 'Promotional project for selling travel packages to the Star Wars park at Disney through Magic Way.'
   },
   {
     projectName: 'Trupe da saúde',
@@ -326,7 +326,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEM0WNKccqT5A/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365653762?e=1740873600&v=beta&t=5tMveN1uyMCkrcEjFsvxwcQS8q9u4y4_Uwymm9zRihE',
     projectLink: 'https://trupedasaude.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para divulgar evento da equipe de palhaços de Curitiba, bem como visitas em hospitais e etc.'
+    description: 'Project created to promote the event of the clown team from Curitiba, as well as hospital visits and more.'
   },
   {
     projectName: 'Unicultura',
@@ -335,7 +335,7 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQGhXVZFMzEjDg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719364410942?e=1740873600&v=beta&t=RPkHzV6JXOqHj9L0NQl8qXzmZy5-tFE0sjUv9jHNJv0',
     projectLink: 'https://www.unicultura.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado para promover a perspectiva sobre o potencial da arte e cultura como força geradora de desenvolvimento local'
+    description: 'Project created to promote the perspective on the potential of art and culture as a driving force for local development.'
   },
   {
     projectName: 'Viva mais previdência',
@@ -344,6 +344,6 @@ export const projectsData: ProjectsInterface[] = [
     banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQE3uKCugKHhQQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719364797555?e=1740873600&v=beta&t=fMb2-nZlEzPPL5ESzoyxuHIsO9H49xe-nOT2PcWznjc',
     projectLink: 'https://vivamaisprev.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
-    description: 'Projeto criado com a missão de proporcionar saúde e benefícios previdenciários, contribuindo para a qualidade de vida da família sanepariana.'
+    description: 'Project created with the mission of providing health and pension benefits, contributing to the quality of life of the Saneparian family.'
   }
 ];

@@ -14,19 +14,15 @@ import {LanguagesComponent} from './languages/languages.component';
   styleUrl: './about.component.scss'
 })
 export class AboutComponent {
-  activeButton: 'Sobre' | 'Educação' | 'Experiência' | 'Habilidades' | 'Idiomas' = 'Sobre';
+  activeButton: 'About' | 'Education' | 'Experience' | 'Skills' | 'Languages' = 'About';
 
-  setActiveButton(buttonText: 'Sobre' | 'Educação' | 'Experiência' | 'Habilidades' | 'Idiomas'): void {
+  setActiveButton(buttonText: 'About' | 'Education' | 'Experience' | 'Skills' | 'Languages'): void {
     this.activeButton = buttonText;
-  }
-
-  getClickEvent() {
-    console.log('deu boa');
   }
 
   downloadPDF(): void {
     const link: HTMLAnchorElement = document.createElement('a');
-    link.href = 'assets/cv/pt-br/Jhonatan Silva da Costa - CV.pdf';
+    link.href = 'assets/cv/Jhonatan Costa - CV.pdf';
     link.download = 'jhonatan costa - CV.pdf';
     link.click();
   }

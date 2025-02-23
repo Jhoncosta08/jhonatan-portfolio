@@ -3,27 +3,27 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'inicio',
+    redirectTo: 'home',
     pathMatch: 'full',
   },
   {
-    path: 'sobre',
-    title: 'Jhonatan - Sobre',
+    path: 'about',
+    title: 'Jhonatan - About',
     loadChildren: () => import('./views/about/about.routes').then(m => m.aboutRoutes),
   },
   {
-    path: 'inicio',
-    title: 'Jhonatan - Início',
+    path: 'home',
+    title: 'Jhonatan - Home',
     loadChildren: () => import('./views/home/home.routes').then(m => m.homeRoutes),
   },
   {
-    path: 'projetos',
-    title: 'Jhonatan - Projetos',
+    path: 'projects',
+    title: 'Jhonatan - Projects',
     loadChildren: () => import('./views/projects/projects.routes').then(m => m.projectsRoutes),
   },
   {
-    path: 'testemunhos',
-    title: 'Jhonatan - Testemunhos',
+    path: 'testimonials',
+    title: 'Jhonatan - Testimonials',
     loadChildren: () => import('./views/testimonials/testimonials.routes').then(m => m.testimonialsRoutes),
   },
   {
