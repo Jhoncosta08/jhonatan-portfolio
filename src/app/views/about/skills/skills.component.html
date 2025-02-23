@@ -4,9 +4,5 @@
     <h2>{{skill.skillTitle}}</h2>
   </div>
 
-  <div class="row skills-list">
-    <div *ngFor="let skillList of skill.skills" class="col-sm-4">
-      <p>{{skillList}}</p>
-    </div>
-  </div>
+  <app-text-list [textList]="skill.skills"></app-text-list>
 </div>

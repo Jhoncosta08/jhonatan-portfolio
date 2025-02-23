@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {UtilsService} from '../../services/shared/utils.service';
 
 @Component({
   selector: 'app-social-icons',
@@ -8,14 +9,17 @@ import { Component } from '@angular/core';
 })
 export class SocialIconsComponent {
 
+  constructor(public utilService: UtilsService) {
+  }
+
   socialIconsRedirect(redirectUrl:'github' |'linkedin' | 'instagram'): Window | null  {
     switch (redirectUrl) {
       case 'github':
-        return window.open('https://github.com/Jhoncosta08', '_blank');
+        return this.utilService.openInNewTab('https://github.com/Jhoncosta08');
       case 'linkedin':
-        return window.open('https://www.linkedin.com/in/jhonatan-silva-da-costa', '_blank');
+        return this.utilService.openInNewTab('https://www.linkedin.com/in/jhonatan-silva-da-costa');
       case 'instagram':
-        return window.open('https://www.instagram.com/jhonCosta08', '_blank');
+        return this.utilService.openInNewTab('https://www.instagram.com/jhonCosta08');
     }
   }
 

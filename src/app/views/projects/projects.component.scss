@@ -1,0 +1,74 @@
+@use 'custom-theme' as *;
+
+.project-container {
+  padding: 3rem 1rem;
+  border-bottom: 1px solid $secondary-three;
+
+  & .project-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      max-width: 90%;
+      max-height: 300px;
+      cursor: pointer;
+      border: 2px solid $primary-one;
+      padding: 0.5rem;
+    }
+  }
+}
+
+.border-left {
+  border-left: 1px solid $secondary-three;
+}
+
+.border-right {
+  border-right: 1px solid $secondary-three;
+}
+
+.project-title-container {
+
+  & h4 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: $secondary-two;
+    margin: 0;
+  }
+
+  & small {
+    font-size: 0.8rem;
+    color: $secondary-three;
+  }
+}
+
+.project-description {
+  font-size: 0.8rem;
+  line-height: 24px;
+  text-align: justify;
+  color: $secondary-one;
+}
+
+.project-link-container {
+  & svg {
+    cursor: pointer;
+    width: auto;
+    height: 1.5rem;
+    transition: 0.4s ease-out;
+    color: $secondary-two;
+    opacity: 0.8;
+  }
+
+  & svg:hover {
+    transition: 0.4s ease-out;
+    color: $primary-two;
+    opacity: 1;
+  }
+}
+
+.project-stack {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: $secondary-two;
+  margin: 1rem 0;
+}

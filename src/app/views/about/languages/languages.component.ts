@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {UtilsService} from '../../../services/shared/utils.service';
 
 @Component({
   selector: 'app-languages',
@@ -7,7 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './languages.component.scss'
 })
 export class LanguagesComponent {
-  openInNewTab(imageSrc: string) {
-    window.open(imageSrc, '_blank');
-  }
+  constructor(public utilService: UtilsService) {}
 }

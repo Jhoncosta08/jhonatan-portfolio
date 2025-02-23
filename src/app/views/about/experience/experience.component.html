@@ -2,7 +2,7 @@
   <ul class="timeline">
     <li *ngFor="let exp of experiences" class="timeline-item mb-5">
       <h5 class="fw-bold">{{ exp.position }}</h5>
-      <p class="mb-2 experience-date"><strong (click)="navigateToTheCompany(exp.companyLink)">{{ exp.company }}</strong> - <i>{{ exp.dateRange }}</i></p>
+      <p class="mb-2 experience-date"><strong (click)="utilService.openInNewTab(exp.companyLink)">{{ exp.company }}</strong> - <i>{{ exp.dateRange }}</i></p>
       <p class="experience-description">{{ exp.description }}</p>
     </li>
 
