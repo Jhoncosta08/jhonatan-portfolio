@@ -46,7 +46,6 @@
             "production": {
               "optimization": true,
               "aot": true,
-              "buildOptimizer": true,
               "sourceMap": false,
               "extractCss": true,
               "vendorChunk": false,
