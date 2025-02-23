@@ -9,22 +9,22 @@ export const routes: Routes = [
   {
     path: 'about',
     title: 'Jhonatan - About',
-    loadChildren: () => import('./views/about/about.routes').then(m => m.aboutRoutes),
+    loadComponent: () => import('./views/about/about.component').then(m => m.AboutComponent),
   },
   {
     path: 'home',
     title: 'Jhonatan - Home',
-    loadChildren: () => import('./views/home/home.routes').then(m => m.homeRoutes),
+    loadComponent: () => import('./views/home/home.component').then(m => m.HomeComponent),
   },
   {
     path: 'projects',
     title: 'Jhonatan - Projects',
-    loadChildren: () => import('./views/projects/projects.routes').then(m => m.projectsRoutes),
+    loadComponent: () => import('./views/projects/projects.component').then(m => m.ProjectsComponent),
   },
   {
     path: 'testimonials',
     title: 'Jhonatan - Testimonials',
-    loadChildren: () => import('./views/testimonials/testimonials.routes').then(m => m.testimonialsRoutes),
+    loadComponent: () => import('./views/testimonials/testimonials.component').then(m => m.TestimonialsComponent),
   },
   {
     path: '**',
