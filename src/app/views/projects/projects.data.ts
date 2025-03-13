@@ -62,7 +62,7 @@ export const projectsData: ProjectsInterface[] = [
       'technical leadership and managing complex integrations.'
   },
   {
-    projectName: 'Mago do Treino',
+    projectName: 'Workout Wizard',
     startDate: 'abr de 2024',
     endDate: 'jun de 2024',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/workout-wizard/master/src/assets/previews/preview-5.png',
@@ -105,7 +105,7 @@ export const projectsData: ProjectsInterface[] = [
       'international projects.'
   },
   {
-    projectName: 'Lol-Guide',
+    projectName: 'Lol Guide',
     startDate: 'jul de 2024',
     endDate: 'set de 2024',
     banner: 'https://github.com/Jhoncosta08/lol-guide/raw/master/src/assets/preview-four.png',
@@ -121,7 +121,7 @@ export const projectsData: ProjectsInterface[] = [
       'characters in an engaging and informative way.'
   },
   {
-    projectName: 'Dynamic table',
+    projectName: 'Dynamic Table',
     startDate: 'mar de 2023',
     endDate: 'mar de 2023',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-table/master/src/assets/img/preview-one.png',
@@ -130,7 +130,7 @@ export const projectsData: ProjectsInterface[] = [
     description: 'Project for creating a complete dynamic table built with Angular, featuring sorting, search, and CSV export.'
   },
   {
-    projectName: 'Dynamic-button',
+    projectName: 'Dynamic Button',
     startDate: 'mar de 2023',
     endDate: 'mar de 2023',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-button/main/src/assets/preview-one.png',
@@ -145,7 +145,7 @@ export const projectsData: ProjectsInterface[] = [
       'for people with different special needs.'
   },
   {
-    projectName: 'FormArray',
+    projectName: 'Form Array',
     startDate: 'fev de 2023',
     endDate: 'fev de 2023',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-form-array/master/src/assets/preview-one.png',
@@ -198,13 +198,13 @@ export const projectsData: ProjectsInterface[] = [
       'essential in ensuring that the system remained fast, scalable, and reliable.'
   },
   {
-    projectName: 'Agrinix - Armazém Inteligente',
+    projectName: 'Agrinix - Smart Warehouse',
     startDate: 'mar de 2021',
     endDate: 'fev de 2022',
     banner: 'assets/img/projects/agrinix-warehouse.jpeg',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'Java', 'Android Studio', 'PostgreSQL', 'Firebase', 'Jira'],
-    description: 'In the Armazém Digital project, I contributed to the development of a logistics solution that ' +
+    description: 'In the Smart Warehouse project, I contributed to the development of a logistics solution that ' +
       'optimized warehouse operations. The system was implemented on tablets mounted on forklifts, ' +
       'developed in Android Studio with a backend in Java. The tablets displayed a complete view of the warehouse layout, ' +
       'guiding workers along optimized routes for collecting and delivering bags, using RFID technology for accurate tracking. ' +
@@ -213,13 +213,13 @@ export const projectsData: ProjectsInterface[] = [
       'over operations and increasing the efficiency of the logistics process.'
   },
   {
-    projectName: 'Agrinix - Floresta Digital',
+    projectName: 'Agrinix - Digital Forest',
     startDate: 'mar de 2021',
     endDate: 'fev de 2022',
     banner: 'assets/img/projects/agrinix-digital-forest.png',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'C#', 'PostgreSQL', 'Mapbox', 'Firebase', 'Jira'],
-    description: 'I worked on the Floresta Digital project, a platform that allowed companies ' +
+    description: 'I worked on the Digital Forest project, a platform that allowed companies ' +
       'to purchase carbon credit tokens by selecting specific areas of a forest through ' +
       'high-resolution aerial images. These images were managed using the ' +
       'Mapbox platform, enabling precise geographic selection and detailed visualization. ' +
@@ -230,13 +230,13 @@ export const projectsData: ProjectsInterface[] = [
       'carbon credits directly from forest areas.'
   },
   {
-    projectName: 'Eterna Magia Curitiba',
+    projectName: 'Eternal Magic Curitiba',
     startDate: 'jan de 2021',
     endDate: 'mar de 2021',
     banner: 'assets/img/projects/eterna-magia.jpeg',
     projectLink: 'https://eternamagiacuritiba.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
-    description: 'Eterna Magia is a website developed using WordPress and Elementor, dedicated to providing a unique experience for ' +
+    description: 'Eternal Magic is a website developed using WordPress and Elementor, dedicated to providing a unique experience for ' +
       'women during the breastfeeding period. The project aims to offer practicality and sensuality through ' +
       'crafted and sophisticated clothing pieces, allowing women to balance the roles of mother, wife, and professional ' +
       'without compromising their own personal care and vanity.'
@@ -322,7 +322,7 @@ export const projectsData: ProjectsInterface[] = [
     description: 'Project created to showcase the company’s products. The project features the option of a layout in 3 different languages: English, Spanish, and Portuguese, with the ability to switch between them.'
   },
   {
-    projectName: 'Sorriso de Curitiba',
+    projectName: 'Smile of Curitiba',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
     banner: 'assets/img/projects/sorriso-de-curitiba.jpeg',
@@ -340,7 +340,7 @@ export const projectsData: ProjectsInterface[] = [
     description: 'Promotional project for selling travel packages to the Star Wars park at Disney through Magic Way.'
   },
   {
-    projectName: 'Trupe da saúde',
+    projectName: 'Health Troupe',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
     banner: 'assets/img/projects/trupe.jpeg',
@@ -358,7 +358,7 @@ export const projectsData: ProjectsInterface[] = [
     description: 'Project created to promote the perspective on the potential of art and culture as a driving force for local development.'
   },
   {
-    projectName: 'Viva mais previdência',
+    projectName: 'Live More Retirement Plan',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
     banner: 'assets/img/projects/viva-prev.jpeg',
