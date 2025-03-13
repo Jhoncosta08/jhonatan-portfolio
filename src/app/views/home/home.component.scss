@@ -37,3 +37,19 @@
     color: $secondary-one;
   }
 }
+
+@media only screen and (max-width: 575px) {
+  .profile-picture img {
+    max-width: 150px;
+  }
+
+  .profile-description {
+    text-align: center;
+    padding: 1rem;
+
+    & p {
+      text-align: justify;
+      margin-top: 1rem;
+    }
+  }
+}

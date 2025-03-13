@@ -24,3 +24,9 @@
     border-color: $primary-two;
   }
 }
+
+@media only screen and (max-width: 575px) {
+  .social-icons {
+    justify-content: center;
+  }
+}
