@@ -35,7 +35,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Wallit',
     startDate: 'jan de 2024',
     endDate: 'fev de 2025',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFkoj7LreCD-g/profile-treasury-image-shrink_1920_1920/B4DZUHfCF7GkAc-/0/1739587330884?e=1740870000&v=beta&t=7nC1QTcMt5WfMen25cYopU0ctoaHAAp4tFpYHIx-1kI',
+    banner: 'assets/img/projects/wallit.jpeg',
     projectLink: 'https://www.wallit.app/',
     skills: [
       'Angular', 'Ionic', 'Node', 'javaScript',
@@ -82,7 +82,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Apex Compliance',
     startDate: 'jan de 2023',
     endDate: 'jan de 2024',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEADwc1KrMH-Q/profile-treasury-image-shrink_800_800/B4DZUHcfxmG4AY-/0/1739586665973?e=1740870000&v=beta&t=LK5KaiUS2zDXj5vpXLnHvyvjO9UuiZUwU6kvpyigMr4',
+    banner: 'assets/img/projects/kwf.png',
     projectLink: 'https://apexcomplianceprogram.com/',
     skills: [
       'Angular', 'TypeScript', 'Node.js', 'Python',
@@ -163,7 +163,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'TAP - Travel Affiliate Partners',
     startDate: 'fev de 2022',
     endDate: 'jan de 2023',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHmQiCzMJ8tfQ/profile-treasury-image-shrink_800_800/B4DZUHbCZLHIAY-/0/1739586284065?e=1740870000&v=beta&t=JrM7v-rr8gBfcrsiPjKgY_oIId0VcEqgW6YB_ruqhuo',
+    banner: 'assets/img/projects/tap.png',
     projectLink: 'https://travelaffiliatepartners.com/',
     skills: ['Angular', 'Node.js', 'PostgreSQL', 'Firebase', 'Adobe XD', 'Bootstrap', 'Linear', 'Adobe XD'],
     description: 'I was responsible for leading the frontend development in the TAP Travel Affiliate Partners project, ' +
@@ -181,7 +181,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Agrinix - Armazém Inteligente',
     startDate: 'mar de 2021',
     endDate: 'fev de 2022',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHne9BBGERadg/profile-treasury-image-shrink_800_800/B4DZUHZpXNHkAc-/0/1739585918854?e=1740870000&v=beta&t=82sDw71OBftXCmwWqf7mRZ0subzth5N-tQ2d9CJJ6s0',
+    banner: 'assets/img/projects/agrinix-warehouse.jpeg',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'Java', 'Android Studio', 'PostgreSQL', 'Firebase', 'Jira'],
     description: 'In the Armazém Digital project, I contributed to the development of a logistics solution that ' +
@@ -196,7 +196,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Agrinix - Floresta Digital',
     startDate: 'mar de 2021',
     endDate: 'fev de 2022',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQGKn864bsbKUQ/profile-treasury-image-shrink_800_800/B4DZUHaSuNHkAY-/0/1739586088400?e=1740870000&v=beta&t=98I-L-arqdyNRPaiYay5Zh34MFHCmzoq6Z-Cx-Nb1so',
+    banner: 'assets/img/projects/agrinix-digital-forest.png',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'C#', 'PostgreSQL', 'Mapbox', 'Firebase', 'Jira'],
     description: 'I worked on the Floresta Digital project, a platform that allowed companies ' +
@@ -213,7 +213,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Eterna Magia Curitiba',
     startDate: 'jan de 2021',
     endDate: 'mar de 2021',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHTEbpSoNKvsw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719360989762?e=1740870000&v=beta&t=sfSoXp8f04FnonBShZ4eO-IJKQMshEgqGMTY4PplI4E',
+    banner: 'assets/img/projects/eterna-magia.jpeg',
     projectLink: 'https://eternamagiacuritiba.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
     description: 'Eterna Magia is a website developed using WordPress and Elementor, dedicated to providing a unique experience for ' +
@@ -225,7 +225,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Pharma Service',
     startDate: 'jan de 2021',
     endDate: 'jun de 2021',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQGTj9Xf8piVkg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365519211?e=1740870000&v=beta&t=y1HeJ6C_krmXqOLG9ofO1nnl_P4sV0H3vSISJunXp_8',
+    banner: 'assets/img/projects/pharma.png',
     projectLink: 'https://xd.adobe.com/view/5a776069-8889-4c25-8d99-c05d52ce5c9c-0f24/?fullscreen',
     skills: ['Adobe XD', 'Gestão de projetos', 'Liderança', 'Gestão de equipes', 'Trello'],
     description: 'The home medication delivery project, developed as a Graduation Thesis (TCC), ' +
@@ -242,7 +242,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Cherio Store',
     startDate: 'jan de 2020',
     endDate: 'jan de 2020',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQHG4vcefT2tRw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719366154562?e=1740870000&v=beta&t=cg_oPuzMYeFkQ9y1kDTVweWhab3IT2wH3G76mwFo4zg',
+    banner: 'assets/img/projects/cherio.jpeg',
     projectLink: 'https://cheriostore.com.br/',
     skills: ['Wordpress', 'Elementor', 'Woocommerce', 'PHP'],
     description: 'Store created to sell cosplay and accessories, directly from China to the world.'
@@ -251,7 +251,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Gestar',
     startDate: 'jan de 2020',
     endDate: 'jan de 2020',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFuga8VR9XHaw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719370929746?e=1740870000&v=beta&t=BuQJyPrLnadruai7MSSK6AYHpa9kd57nQZabPIKozBc',
+    banner: 'assets/img/projects/gestar.jpeg',
     projectLink: 'https://gestar.ong.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to address infertility issues and help people.'
@@ -260,7 +260,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Schwankecasa',
     startDate: 'jan de 2020',
     endDate: 'jan de 2020',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFAeAwIVs7CDQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719373710838?e=1740870000&v=beta&t=fywZ9xHy-FgV11XYM_zm1w2IT3-icg2mrxa_-A7_Yq0',
+    banner: 'assets/img/projects/schwanke-casa.jpeg',
     projectLink: 'https://schwankecasa.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to showcase the company’s products.'
@@ -269,7 +269,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Arquitetare',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEfsMfVKxkgJg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719361385532?e=1740873600&v=beta&t=msAQ8GuaqVXSPowYxiGuR4-zuQ5ogkh7rd42WpjwB58',
+    banner: 'assets/img/projects/arquitetare.jpeg',
     projectLink: 'https://www.arquitetare.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to showcase the company’s architecture work, aiming to attract clients and display their work to the world.'
@@ -278,7 +278,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'EduMedica',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQF1uEhVn3V9CQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719374551397?e=1740873600&v=beta&t=VteIpX4GftmSuvkP8cXzh-04QZGuBgFnH2tHniNlCxY',
+    banner: 'assets/img/projects/edumedica.jpeg',
     projectLink: 'https://edumedica.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to present content for healthcare professionals.'
@@ -287,7 +287,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Estillo Mania',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEq8q-edAdDfg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365181482?e=1740873600&v=beta&t=DGsvPc4WxX3gP8Jm5McjPp5sxFKS5lIUmckzLMRO4P8',
+    banner: 'assets/img/projects/estillo-mania.jpeg',
     projectLink: 'https://estillomania.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
     description: 'Store associated with Estilo School, created to sell school supplies, uniforms, costumes, and more.'
@@ -296,7 +296,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Intercroma',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQFjE6tjtbPlZw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719374026332?e=1740873600&v=beta&t=t3PjZzO45Emavbcotj1rbioaI5yufCCXP7DS5l-41e4',
+    banner: 'assets/img/projects/intercroma.jpeg',
     projectLink: 'https://www.intercroma.com/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to showcase the company’s products. The project features the option of a layout in 3 different languages: English, Spanish, and Portuguese, with the ability to switch between them.'
@@ -305,7 +305,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Sorriso de Curitiba',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEdcTI2H1CtqA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719373640333?e=1740873600&v=beta&t=Cp_m8O_wfEJCbDhjydNKDZoh16tQ5FVH48sU5hOy1f8',
+    banner: 'assets/img/projects/sorriso-de-curitiba.jpeg',
     projectLink: 'https://www.sorrisodecuritiba.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to promote Curitiba’s bus line, as well as provide information to people.'
@@ -314,7 +314,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Star Wars - Magic Way',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEqEyQns_bkaQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719374473929?e=1740873600&v=beta&t=qTDm2ZqRSkpLc-fYaFwTXQv9T_6qMIksK2xpQFPX3sA',
+    banner: 'assets/img/projects/star-wars.jpeg',
     projectLink: '',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Promotional project for selling travel packages to the Star Wars park at Disney through Magic Way.'
@@ -323,7 +323,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Trupe da saúde',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQEM0WNKccqT5A/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365653762?e=1740873600&v=beta&t=5tMveN1uyMCkrcEjFsvxwcQS8q9u4y4_Uwymm9zRihE',
+    banner: 'assets/img/projects/trupe.jpeg',
     projectLink: 'https://trupedasaude.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to promote the event of the clown team from Curitiba, as well as hospital visits and more.'
@@ -332,7 +332,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Unicultura',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQGhXVZFMzEjDg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719364410942?e=1740873600&v=beta&t=RPkHzV6JXOqHj9L0NQl8qXzmZy5-tFE0sjUv9jHNJv0',
+    banner: 'assets/img/projects/unicultura.jpeg',
     projectLink: 'https://www.unicultura.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created to promote the perspective on the potential of art and culture as a driving force for local development.'
@@ -341,7 +341,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Viva mais previdência',
     startDate: 'jan de 2019',
     endDate: 'jan de 2019',
-    banner: 'https://media.licdn.com/dms/image/v2/D4D2DAQE3uKCugKHhQQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719364797555?e=1740873600&v=beta&t=fMb2-nZlEzPPL5ESzoyxuHIsO9H49xe-nOT2PcWznjc',
+    banner: 'assets/img/projects/viva-prev.jpeg',
     projectLink: 'https://vivamaisprev.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
     description: 'Project created with the mission of providing health and pension benefits, contributing to the quality of life of the Saneparian family.'
