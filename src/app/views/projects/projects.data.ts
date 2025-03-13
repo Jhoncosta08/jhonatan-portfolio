@@ -247,7 +247,7 @@ export const projectsData: ProjectsInterface[] = [
     endDate: 'jun de 2021',
     banner: 'assets/img/projects/pharma.png',
     projectLink: 'https://xd.adobe.com/view/5a776069-8889-4c25-8d99-c05d52ce5c9c-0f24/?fullscreen',
-    skills: ['Adobe XD', 'Gestão de projetos', 'Liderança', 'Gestão de equipes', 'Trello'],
+    skills: ['Adobe XD', 'Project management', 'Leadership', 'Team management', 'Trello'],
     description: 'The home medication delivery project, developed as a Graduation Thesis (TCC), ' +
       'was designed to facilitate quick and convenient access to medications through a mobile app. ' +
       'As the project manager, I took on the responsibility of leading and coordinating the project development, ' +
