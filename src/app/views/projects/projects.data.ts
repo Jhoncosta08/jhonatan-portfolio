@@ -165,7 +165,7 @@ export const projectsData: ProjectsInterface[] = [
     endDate: 'jan de 2023',
     banner: 'assets/img/projects/tap.png',
     projectLink: 'https://travelaffiliatepartners.com/',
-    skills: ['Angular', 'Node.js', 'PostgreSQL', 'Firebase', 'Adobe XD', 'Bootstrap', 'Linear', 'Adobe XD'],
+    skills: ['Angular', 'Node.js', 'PostgreSQL', 'Firebase', 'Adobe XD', 'Bootstrap', 'Linear'],
     description: 'I was responsible for leading the frontend development in the TAP Travel Affiliate Partners project, ' +
       'an innovative system that connected hotel booking companies, like Booking.com, to digital influencers. ' +
       'The system allowed influencers to register, search for hotels and inns, create ' +
@@ -176,6 +176,26 @@ export const projectsData: ProjectsInterface[] = [
       'was international, I actively participated in daily meetings in English with the client, ensuring clear ' +
       'and efficient communication. This experience was crucial for enhancing my technical leadership, team coordination, ' +
       'and project management skills in a global environment.'
+  },
+  {
+    projectName: 'Apparture',
+    startDate: 'jan de 2020',
+    endDate: 'fev de 2021',
+    banner: 'assets/img/projects/apparture.jpg',
+    projectLink: 'https://www.linkedin.com/in/jhonatan-silva-da-costa/details/projects/',
+    skills: ['Angular','TypeScript','D3.js', 'Node.js', 'PostgreSQL', 'Adobe XD', 'Material Designer', 'Jira'],
+    description: 'In the Apparture project, developed for monitoring the production and distribution of medicinal cannabis, ' +
+      'my main responsibility was front-end development using Angular, with a strong focus on ensuring optimal application ' +
+      'performance. The system handled a massive volume of data, processing over 1 million entries, which required the ' +
+      'implementation of advanced techniques such as infinite scroll, lazy loading, and pagination. These solutions allowed ' +
+      'for smooth and efficient navigation without compromising performance, even with large amounts of data being loaded in real-time.' +
+      'In addition to front-end work, I actively collaborated on defining the communication between the front-end and the back-end, which ' +
+      'was developed in Node.js, assisting the team in making critical architectural decisions to ensure efficient integration between both' +
+      ' parts of the system. Throughout the development process, I participated in automated testing with Cypress, ensuring that features were' +
+      ' rigorously tested and that the system maintained stability and quality.' +
+      'I was also responsible for organizing sprints, managing tasks in Jira, and ensuring deadlines were met within 3-week cycles. ' +
+      'The project demanded strong attention to performance and the ability to handle a large volume of data, and my role was ' +
+      'essential in ensuring that the system remained fast, scalable, and reliable.'
   },
   {
     projectName: 'Agrinix - Armazém Inteligente',
