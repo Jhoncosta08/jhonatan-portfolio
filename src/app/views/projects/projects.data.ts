@@ -2,9 +2,43 @@ import {ProjectsInterface} from './projects.interface';
 
 export const projectsData: ProjectsInterface[] = [
   {
+    projectName: 'Anagram Search',
+    startDate: 'mar - 2025',
+    endDate: 'mar - 2025',
+    banner: 'https://raw.githubusercontent.com/Jhoncosta08/search-anagram/master/src/assets/previews/preview-one.png',
+    projectLink: 'https://github.com/Jhoncosta08/search-anagram',
+    skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS'],
+    description: 'This project was developed using Angular 19 and follows best practices in architecture and design. ' +
+      'The system utilizes advanced features like Standalone Components and Lazy Loading, and is organized into views ' +
+      'and components to ensure modularity and easy maintenance. The application is fully responsive, providing an optimized ' +
+      'experience for both mobile devices and desktops. The main goal of the system is to allow the user to add a JSON ' +
+      'containing strings, enabling the identification and grouping of anagrams within the dataset. The jsoneditor library ' +
+      'is used for editing and manipulating the JSON, offering an intuitive interface. The system processes the input ' +
+      'data to detect anagrams, which are words with the same letters in equal quantities but arranged in different orders, ' +
+      'grouping them into a new output array.'
+  },
+  {
+    projectName: 'Zig-Zag String',
+    startDate: 'mar - 2025',
+    endDate: 'mar - 2025',
+    banner: 'https://raw.githubusercontent.com/Jhoncosta08/zig-zag/master/src/assets/previews/preview-one.png',
+    projectLink: 'https://github.com/Jhoncosta08/zig-zag',
+    skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS'],
+    description: 'This system was developed using Angular 19, leveraging modern features like Standalone Components and Lazy Loading ' +
+      'to optimize the user experience. It is fully responsive, adapting to various screen sizes to ensure seamless interaction on' +
+      ' both mobile devices and desktops. The main functionality allows the user to input a string and an integer x, ' +
+      'and the system processes the string by breaking it into lines of length x and reconstructing it ' +
+      'according to a pattern called "Back and Forth." In this pattern, the original string is divided into lines of length x,' +
+      ' and if the division isn\'t exact, the remaining characters are alternated between the beginning ' +
+      'and end of the resulting string. Additionally, all even-numbered lines have their contents reversed before being' +
+      ' used in the final string reconstruction, creating a reorganized string alternating between reversed and non-reversed lines. ' +
+      'This approach allows the system to dynamically and efficiently rearrange the words, ' +
+      'applying an interesting logic for string manipulation.'
+  },
+  {
     projectName: 'Average Color',
-    startDate: 'fev de 2025',
-    endDate: 'fev de 2025',
+    startDate: 'feb - 2025',
+    endDate: 'feb - 2025',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/average-color/master/average-color.png',
     projectLink: 'https://github.com/Jhoncosta08/average-color',
     skills: ['HTML', 'CSS', 'javaScript'],
@@ -18,8 +52,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'School App',
-    startDate: 'fev de 2025',
-    endDate: 'fev de 2025',
+    startDate: 'feb - 2025',
+    endDate: 'feb - 2025',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/school-app/master/src/assets/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/school-app',
     skills: ['Vue.js', 'Vuetify', 'HTML', 'CSS', 'javaScript'],
@@ -33,8 +67,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Wallit',
-    startDate: 'jan de 2024',
-    endDate: 'fev de 2025',
+    startDate: 'jan - 2024',
+    endDate: 'feb - 2025',
     banner: 'assets/img/projects/wallit.jpeg',
     projectLink: 'https://www.wallit.app/',
     skills: [
@@ -63,8 +97,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Workout Wizard',
-    startDate: 'abr de 2024',
-    endDate: 'jun de 2024',
+    startDate: 'apr - 2024',
+    endDate: 'jun - 2024',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/workout-wizard/master/src/assets/previews/preview-5.png',
     projectLink: 'https://github.com/Jhoncosta08/workout-wizard',
     skills: ['Angular', 'Ionic', 'TypeScript', 'LazyLoading', 'Firebase', 'HTML', 'CSS', 'Trello'],
@@ -80,8 +114,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Apex Compliance',
-    startDate: 'jan de 2023',
-    endDate: 'jan de 2024',
+    startDate: 'jan - 2023',
+    endDate: 'jan - 2024',
     banner: 'assets/img/projects/kwf.png',
     projectLink: 'https://apexcomplianceprogram.com/',
     skills: [
@@ -106,8 +140,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Lol Guide',
-    startDate: 'jul de 2024',
-    endDate: 'set de 2024',
+    startDate: 'jul - 2024',
+    endDate: 'sep - 2024',
     banner: 'https://github.com/Jhoncosta08/lol-guide/raw/master/src/assets/preview-four.png',
     projectLink: 'https://github.com/Jhoncosta08/lol-guide',
     skills: ['Angular', 'TypeScript', 'Firebase', 'HTML', 'CSS', 'Trello'],
@@ -122,8 +156,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Dynamic Table',
-    startDate: 'mar de 2023',
-    endDate: 'mar de 2023',
+    startDate: 'mar - 2023',
+    endDate: 'mar - 2023',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-table/master/src/assets/img/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-dynamic-table',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS'],
@@ -131,8 +165,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Dynamic Button',
-    startDate: 'mar de 2023',
-    endDate: 'mar de 2023',
+    startDate: 'mar - 2023',
+    endDate: 'mar - 2023',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-button/main/src/assets/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-dynamic-button',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS'],
@@ -146,8 +180,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Form Array',
-    startDate: 'fev de 2023',
-    endDate: 'fev de 2023',
+    startDate: 'feb - 2023',
+    endDate: 'feb - 2023',
     banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-form-array/master/src/assets/preview-one.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-form-array',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'],
@@ -161,8 +195,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'TAP - Travel Affiliate Partners',
-    startDate: 'fev de 2022',
-    endDate: 'jan de 2023',
+    startDate: 'feb - 2022',
+    endDate: 'jan - 2023',
     banner: 'assets/img/projects/tap.png',
     projectLink: 'https://travelaffiliatepartners.com/',
     skills: ['Angular', 'Node.js', 'PostgreSQL', 'Firebase', 'Adobe XD', 'Bootstrap', 'Linear'],
@@ -179,8 +213,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Apparture',
-    startDate: 'jan de 2020',
-    endDate: 'fev de 2021',
+    startDate: 'jan - 2020',
+    endDate: 'feb - 2021',
     banner: 'assets/img/projects/apparture.jpg',
     projectLink: 'https://www.linkedin.com/in/jhonatan-silva-da-costa/details/projects/',
     skills: ['Angular','TypeScript','D3.js', 'Node.js', 'PostgreSQL', 'Adobe XD', 'Material Designer', 'Jira'],
@@ -199,8 +233,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Agrinix - Smart Warehouse',
-    startDate: 'mar de 2021',
-    endDate: 'fev de 2022',
+    startDate: 'mar - 2021',
+    endDate: 'feb - 2022',
     banner: 'assets/img/projects/agrinix-warehouse.jpeg',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'Java', 'Android Studio', 'PostgreSQL', 'Firebase', 'Jira'],
@@ -214,8 +248,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Agrinix - Digital Forest',
-    startDate: 'mar de 2021',
-    endDate: 'fev de 2022',
+    startDate: 'mar - 2021',
+    endDate: 'feb - 2022',
     banner: 'assets/img/projects/agrinix-digital-forest.png',
     projectLink: 'https://agrinix.com.br/',
     skills: ['Angular', 'TypeScript', 'C#', 'PostgreSQL', 'Mapbox', 'Firebase', 'Jira'],
@@ -231,8 +265,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Eternal Magic Curitiba',
-    startDate: 'jan de 2021',
-    endDate: 'mar de 2021',
+    startDate: 'jan - 2021',
+    endDate: 'mar - 2021',
     banner: 'assets/img/projects/eterna-magia.jpeg',
     projectLink: 'https://eternamagiacuritiba.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
@@ -243,8 +277,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Pharma Service',
-    startDate: 'jan de 2021',
-    endDate: 'jun de 2021',
+    startDate: 'jan - 2021',
+    endDate: 'jun - 2021',
     banner: 'assets/img/projects/pharma.png',
     projectLink: 'https://xd.adobe.com/view/5a776069-8889-4c25-8d99-c05d52ce5c9c-0f24/?fullscreen',
     skills: ['Adobe XD', 'Project management', 'Leadership', 'Team management', 'Trello'],
@@ -260,8 +294,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Cherio Store',
-    startDate: 'jan de 2020',
-    endDate: 'jan de 2020',
+    startDate: 'jan - 2020',
+    endDate: 'jan - 2020',
     banner: 'assets/img/projects/cherio.jpeg',
     projectLink: 'https://cheriostore.com.br/',
     skills: ['Wordpress', 'Elementor', 'Woocommerce', 'PHP'],
@@ -269,8 +303,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Gestar',
-    startDate: 'jan de 2020',
-    endDate: 'jan de 2020',
+    startDate: 'jan - 2020',
+    endDate: 'jan - 2020',
     banner: 'assets/img/projects/gestar.jpeg',
     projectLink: 'https://gestar.ong.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -278,8 +312,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Schwankecasa',
-    startDate: 'jan de 2020',
-    endDate: 'jan de 2020',
+    startDate: 'jan - 2020',
+    endDate: 'jan - 2020',
     banner: 'assets/img/projects/schwanke-casa.jpeg',
     projectLink: 'https://schwankecasa.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -287,8 +321,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Arquitetare',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/arquitetare.jpeg',
     projectLink: 'https://www.arquitetare.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -296,8 +330,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'EduMedica',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/edumedica.jpeg',
     projectLink: 'https://edumedica.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -305,8 +339,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Estillo Mania',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/estillo-mania.jpeg',
     projectLink: 'https://estillomania.com.br/',
     skills: ['Wordpress', 'Woocommerce', 'Elementor', 'PHP'],
@@ -314,8 +348,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Intercroma',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/intercroma.jpeg',
     projectLink: 'https://www.intercroma.com/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -323,8 +357,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Smile of Curitiba',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/sorriso-de-curitiba.jpeg',
     projectLink: 'https://www.sorrisodecuritiba.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -332,8 +366,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Star Wars - Magic Way',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/star-wars.jpeg',
     projectLink: '',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -341,8 +375,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Health Troupe',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/trupe.jpeg',
     projectLink: 'https://trupedasaude.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -350,8 +384,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Unicultura',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/unicultura.jpeg',
     projectLink: 'https://www.unicultura.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
@@ -359,8 +393,8 @@ export const projectsData: ProjectsInterface[] = [
   },
   {
     projectName: 'Live More Retirement Plan',
-    startDate: 'jan de 2019',
-    endDate: 'jan de 2019',
+    startDate: 'jan - 2019',
+    endDate: 'jan - 2019',
     banner: 'assets/img/projects/viva-prev.jpeg',
     projectLink: 'https://vivamaisprev.com.br/',
     skills: ['Wordpress', 'Elementor', 'PHP'],
