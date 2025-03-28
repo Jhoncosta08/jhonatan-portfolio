@@ -2,6 +2,19 @@ import {ProjectsInterface} from './projects.interface';
 
 export const projectsData: ProjectsInterface[] = [
   {
+    projectName: 'Company Registration',
+    startDate: 'fev - 2025',
+    endDate: 'mar - 2025',
+    banner: 'https://raw.githubusercontent.com/Jhoncosta08/abertura-de-empresa/master/src/assets/previews/preview-one.png',
+    projectLink: 'https://github.com/Jhoncosta08/abertura-de-empresa',
+    skills: ['Angular', 'typeScript', 'Firebase', 'Bootstrap', 'HTML', 'CSS'],
+    description: 'The Company Registration software is an intuitive and efficient platform that streamlines the process of ' +
+      'submitting and managing new company applications. It features a dashboard for viewing and editing existing requests,' +
+      ' as well as enabling the creation of new ones through a simple form divided into applicant and company details. ' +
+      'The system validates the entered information, providing instant feedback on successful operations or errors to be corrected. ' +
+      'Integrated with an API, it ensures security and agility in the process of formalizing businesses.'
+  },
+  {
     projectName: 'Anagram Search',
     startDate: 'mar - 2025',
     endDate: 'mar - 2025',
