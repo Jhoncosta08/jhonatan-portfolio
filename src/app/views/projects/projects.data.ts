@@ -2,10 +2,73 @@ import {ProjectsInterface} from './projects.interface';
 
 export const projectsData: ProjectsInterface[] = [
   {
-    projectName: 'Company Registration',
-    startDate: 'fev - 2025',
+    projectName: 'Fourbank',
+    startDate: 'mar - 2025',
+    endDate: 'oct - 2025',
+    banner: 'assets/img/projects/fourbank.png',
+    projectLink: 'https://www.fourbank.com.br',
+    skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS', 'Java', 'Postgress'],
+    description: `
+    Fourbank – SPI (Instant Payments System) is a
+    platform designed for managing internal financial transactions, serving as the
+    foundation for operations such as Pix transfers. It functions as the central
+    hub for controlling and moving funds, ensuring that resources are always available
+    for customer-initiated transactions. In addition, it includes a balance monitoring
+    mechanism that triggers notifications whenever a critical threshold is reached,
+    guaranteeing service continuity and reliability of financial operations.
+
+    In this project, I acted as the frontend lead, being fully responsible for building
+    the interface from scratch. I gathered requirements, aligned solutions and best
+    practices with the technical leadership, and regularly presented screens to
+    the client for validation. This role combined hands-on technical work with direct
+    communication with stakeholders, ensuring that business needs were translated into a modern,
+     efficient application aligned with client expectations.
+    `
+  },
+  {
+    projectName: 'Whatsapp manager',
+    startDate: 'aug - 2025',
+    endDate: 'sep - 2025',
+    banner: 'assets/img/projects/whatsapp-manager.jpg',
+    projectLink: 'https://github.com/Jhoncosta08/whatsapp-manager',
+    skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS', 'Firebase'],
+    description: `
+    The Customer and WhatsApp Manager was a system that I developed from scratch to optimize the
+    communication between a clinic and its clients. It allows the registration of clients through
+    a form or the import of XLS/CSV spreadsheets, with automatic formatting of phone numbers
+    before registration. From this, it is possible to send messages directly through the official
+    WhatsApp API, making contact easier and the communication more agile and organized.
+
+    Each client has a linked medical insurance, which makes it possible to filter and segment
+    the registrations. In this way, the clinic can send individual messages or target only
+    specific groups — for example, selecting only clients of a certain insurance,
+    such as Unimed, and sending messages exclusively to this audience.
+    The functionality ensures efficiency in sending communications, maintaining
+    personalized and close service.
+    `
+  },
+  {
+    projectName: 'My Marriage',
+    startDate: 'jan - 2025',
     endDate: 'mar - 2025',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/abertura-de-empresa/master/src/assets/previews/preview-one.png',
+    banner: 'assets/img/projects/marriage.jpg',
+    projectLink: 'https://casamento-jhonatan-kelly.web.app',
+    skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS', 'Firebase'],
+    description: `
+    The wedding website project was a project that I created from scratch,
+    combining my development experience with a very special personal purpose:
+    to celebrate and share my wedding and my 10 year story together with my wife.
+    The site tells our journey in a relaxed and affectionate way, from the bike rides
+    on the bicycle frame and the first dance classes to the achievements, changes and
+    challenges that marked our life together. It also presents details of the wedding,
+    allowing friends and family to participate in this moment in a close and engaging way.
+    `
+  },
+  {
+    projectName: 'Company Registration',
+    startDate: 'feb - 2025',
+    endDate: 'mar - 2025',
+    banner: 'assets/img/projects/company.png',
     projectLink: 'https://github.com/Jhoncosta08/abertura-de-empresa',
     skills: ['Angular', 'typeScript', 'Firebase', 'Bootstrap', 'HTML', 'CSS'],
     description: 'The Company Registration software is an intuitive and efficient platform that streamlines the process of ' +
@@ -18,7 +81,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Anagram Search',
     startDate: 'mar - 2025',
     endDate: 'mar - 2025',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/search-anagram/master/src/assets/previews/preview-one.png',
+    banner: 'assets/img/projects/search-anagram.png',
     projectLink: 'https://github.com/Jhoncosta08/search-anagram',
     skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS'],
     description: 'This project was developed using Angular 19 and follows best practices in architecture and design. ' +
@@ -34,7 +97,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Zig-Zag String',
     startDate: 'mar - 2025',
     endDate: 'mar - 2025',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/zig-zag/master/src/assets/previews/preview-one.png',
+    banner: 'assets/img/projects/zig-zag.png',
     projectLink: 'https://github.com/Jhoncosta08/zig-zag',
     skills: ['Angular', 'typeScript', 'Bootstrap', 'HTML', 'CSS'],
     description: 'This system was developed using Angular 19, leveraging modern features like Standalone Components and Lazy Loading ' +
@@ -52,7 +115,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Average Color',
     startDate: 'feb - 2025',
     endDate: 'feb - 2025',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/average-color/master/average-color.png',
+    banner: 'assets/img/projects/average-color.png',
     projectLink: 'https://github.com/Jhoncosta08/average-color',
     skills: ['HTML', 'CSS', 'javaScript'],
     description: 'This system was developed using pure HTML, CSS, and JavaScript, ' +
@@ -67,7 +130,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'School App',
     startDate: 'feb - 2025',
     endDate: 'feb - 2025',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/school-app/master/src/assets/preview-one.png',
+    banner: 'assets/img/projects/school-app.png',
     projectLink: 'https://github.com/Jhoncosta08/school-app',
     skills: ['Vue.js', 'Vuetify', 'HTML', 'CSS', 'javaScript'],
     description: 'The project is a student management system that ' +
@@ -112,7 +175,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Workout Wizard',
     startDate: 'apr - 2024',
     endDate: 'jun - 2024',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/workout-wizard/master/src/assets/previews/preview-5.png',
+    banner: 'assets/img/projects/gym-app.png',
     projectLink: 'https://github.com/Jhoncosta08/workout-wizard',
     skills: ['Angular', 'Ionic', 'TypeScript', 'LazyLoading', 'Firebase', 'HTML', 'CSS', 'Trello'],
     description: 'Workout Wizard is a mobile app that provides users with the ability ' +
@@ -155,7 +218,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Lol Guide',
     startDate: 'jul - 2024',
     endDate: 'sep - 2024',
-    banner: 'https://github.com/Jhoncosta08/lol-guide/raw/master/src/assets/preview-four.png',
+    banner: 'assets/img/projects/lol-guide.png',
     projectLink: 'https://github.com/Jhoncosta08/lol-guide',
     skills: ['Angular', 'TypeScript', 'Firebase', 'HTML', 'CSS', 'Trello'],
     description: 'The app is an interactive platform based on the game League of Legends, ' +
@@ -171,7 +234,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Dynamic Table',
     startDate: 'mar - 2023',
     endDate: 'mar - 2023',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-table/master/src/assets/img/preview-one.png',
+    banner: 'assets/img/projects/dynamic-table.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-dynamic-table',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS'],
     description: 'Project for creating a complete dynamic table built with Angular, featuring sorting, search, and CSV export.'
@@ -180,7 +243,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Dynamic Button',
     startDate: 'mar - 2023',
     endDate: 'mar - 2023',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-dynamic-button/main/src/assets/preview-one.png',
+    banner: 'assets/img/projects/dynamic-button.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-dynamic-button',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS'],
     description: 'The app features a reusable dynamic button component that allows for ' +
@@ -195,7 +258,7 @@ export const projectsData: ProjectsInterface[] = [
     projectName: 'Form Array',
     startDate: 'feb - 2023',
     endDate: 'feb - 2023',
-    banner: 'https://raw.githubusercontent.com/Jhoncosta08/angular-form-array/master/src/assets/preview-one.png',
+    banner: 'assets/img/projects/form-array.png',
     projectLink: 'https://github.com/Jhoncosta08/angular-form-array',
     skills: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'],
     description: 'A dynamic form that allows for the efficient and intuitive addition and removal of fields. ' +
