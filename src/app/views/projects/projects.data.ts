@@ -41,7 +41,7 @@ export const projectsData: ProjectsInterface[] = [
 
     Each client has a linked medical insurance, which makes it possible to filter and segment
     the registrations. In this way, the clinic can send individual messages or target only
-    specific groups — for example, selecting only clients of a certain insurance,
+    specific groups, for example, selecting only clients of a certain insurance,
     such as Unimed, and sending messages exclusively to this audience.
     The functionality ensures efficiency in sending communications, maintaining
     personalized and close service.
