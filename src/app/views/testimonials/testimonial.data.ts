@@ -53,7 +53,7 @@ export const testimonialData: TestimonialInterface[] = [
       studying and dedicating yourself to what you do. Success!`
   },
   {
-    picture: 'assets/img/testimonials/default-profile-icon.png',
+    picture: 'assets/img/testimonials/daniel.jpg',
     name: 'Daniel Francisco',
     linkedin: 'https://www.linkedin.com/in/daniel-francisco-79ab99165',
     position: 'Product Manager',
