@@ -2,6 +2,20 @@ import {ExperienceInterface} from './experience.interface';
 
 export const experienceData: ExperienceInterface[] = [
   {
+    company: 'Deliverit',
+    companyLink: 'https://www.linkedin.com/company/deliver-it-br',
+    position: 'Frontend Developer',
+    dateRange: 'Apr 2021 - At the moment',
+    description: 'Responsible for the development and maintenance of modern and scalable\n' +
+      'interfaces using Angular and technologies such as: TypeScript, RxJS, SCSS,\n' +
+      'Bootstrap, and others. Responsible for defining frontend architectures, implementing\n' +
+      'coding best practices, and maintaining technical alignment with leadership and\n' +
+      'stakeholders, ensuring high-performance solutions and excellent user experience.\n' +
+      'Participation in agile practices, promoting code standardization and quality with tools\n' +
+      'such as ESLint. Contribution to the scalability, performance, organization, and\n' +
+      'internationalization of applications.'
+  },
+  {
     company: 'Tekna Rocks',
     companyLink: 'https://www.linkedin.com/company/teknarocks',
     position: 'Frontend Developer',
