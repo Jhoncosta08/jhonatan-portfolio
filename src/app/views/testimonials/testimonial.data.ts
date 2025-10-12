@@ -9,7 +9,7 @@ export const testimonialData: TestimonialInterface[] = [
     testimonial: `In a team, I had the honor of leading Jhonatan,
       one of the most competent and exceptional development professionals I have ever worked with.
       His excellence translates into high-speed, high-quality work, always aligned with a deep sense
-      of responsibility toward the project.' + 'What sets him apart in a remarkable way is his
+      of responsibility toward the project. What sets him apart in a remarkable way is his
       communication skills and resilience, attributes rarely found with such solidity. In addition
       to possessing unquestionable technical mastery, Jhonatan is a proactive collaborator who actively
       contributes with constructive criticism and well-founded opinions, enriching both the debate
